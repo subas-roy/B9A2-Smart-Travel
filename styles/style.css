@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/* navbar style starts here */
+.header-section {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.nav-container img {
+  width: 48px;
+}
+.nav-container p {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.special {
+  color: #FF5400;
+}
+.items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-container a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #424247;
+  
+}
+.bars {
+  display: none;
+  color: #131318;
+}
+.fa-bars {
+  font-size: 16.5px;
+}
+
+/* banner section style */
+.banner-section {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.banner-container {
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-text {
+  text-align: center;
+  color: white;
+  width: 596px;
+}
+.banner-text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.banner-text p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.banner-form {
+  display: flex;
+  gap: 24px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.30);
+  border-radius: 8px;  
+}
+.banner-form input, select, button {
+  color: rgba(19, 19, 24, 0.50);
+  width: 174px;
+  height: 52px;
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.banner-form button {
+  background-color: #FF5400;
+  color: white;
+}
