@@ -11,7 +11,9 @@
 @media screen and (max-width: 600px) {
   .header-section,
   .banner-section,
-  .destination-section {
+  .destination-section,
+  .feature-container,
+  .feature-3 {
     margin: 20px;
   }
   .items-container a {
@@ -50,6 +52,10 @@
   .destination-container {
     display: flex;
     flex-direction: column;
+  }
+  .feature-container {
+    flex-direction: column;
+    gap: 24px;
   }
 
 }
