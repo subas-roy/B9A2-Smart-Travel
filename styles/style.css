@@ -22,6 +22,7 @@ body {
 }
 .nav-container img {
   width: 48px;
+  margin-right: 16px;
 }
 .nav-container p {
   font-size: 2.25rem;
@@ -102,4 +103,52 @@ body {
 .banner-form button {
   background-color: #FF5400;
   color: white;
+}
+
+/* tours section style */
+.tours-section {
+  max-width: 1170px;
+  margin: 50px auto;
+}
+.section-title {
+  font-size: 2.5rem;
+  color: #131318;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.text-light-gray {
+  font-size: 1rem;
+  color: rgba(19, 19, 24, 0.70);
+  margin-bottom: 24px;
+}
+.tours-container {
+  display: flex;
+  gap: 53px;
+  justify-content: center;
+  align-items: center;
+}
+.tours-text {
+  width: 50%;
+}
+.tours-text ul {
+  margin-left: 30px;
+}
+.tours-image {
+  width: 50%;
+}
+.tours-image img {
+  width: 100%;
+  object-fit: cover;
+}
+.primary-btn {
+  width: 174px;
+  height: 52px;
+  background-color: #FF5400;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Mulish", sans-serif;
 }

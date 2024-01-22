@@ -44,4 +44,14 @@
   .items-container {
     width: 10%;
   }
+  .tours-container {
+    flex-direction: column;
+    margin: 20px;
+  }
+  .tours-text {
+    width: 100%;
+  }
+  .tours-image {
+    width: 100%;
+  }
 }
