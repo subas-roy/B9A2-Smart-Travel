@@ -10,7 +10,8 @@
 }
 @media screen and (max-width: 600px) {
   .header-section,
-  .banner-section {
+  .banner-section,
+  .destination-section {
     margin: 20px;
   }
   .items-container a {
@@ -29,10 +30,8 @@
     width: 70%;
     flex-direction: column;
   }
-  .banner-text {
-    width: 100%
-  }
-  .banner-form input, select, button {
+  .banner-form input, select, button,
+  .banner-text, .tours-text, .tours-image {
     width: 100%;
   }
   .banner-text h1 {
@@ -48,10 +47,9 @@
     flex-direction: column;
     margin: 20px;
   }
-  .tours-text {
-    width: 100%;
+  .destination-container {
+    display: flex;
+    flex-direction: column;
   }
-  .tours-image {
-    width: 100%;
-  }
+
 }
