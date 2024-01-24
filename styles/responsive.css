@@ -13,7 +13,8 @@
   .banner-section,
   .destination-section,
   .feature-container,
-  .feature-3 {
+  .feature-3,
+  .place-section {
     margin: 20px;
   }
   .items-container a {
@@ -57,5 +58,12 @@
     flex-direction: column;
     gap: 24px;
   }
+  .place-container {
+    flex-direction: column;
+  }
+  .place-text, .place-image {
+    width: 100%;
+  }
 
-}
+
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

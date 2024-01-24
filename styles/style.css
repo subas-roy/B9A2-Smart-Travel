@@ -223,7 +223,6 @@ body {
   margin: 0 auto 48px auto;
 }
 
-
 /* feature section style */
 .feature-section {
   max-width: 1170px;
@@ -241,6 +240,8 @@ body {
 .feature-section h3 {
   font-size: 1.5rem;
   font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 .feature-section > p {
   max-width: 643px;
@@ -267,4 +268,67 @@ body {
   border: 1px solid rgba(233, 68, 68, 0.20);
   background: rgba(233, 68, 68, 0.05);
   margin: 0 auto;
+}
+
+/* place section style */
+.place-section {
+  max-width: 1170px;
+  margin: 100px auto;
+}
+.place-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 42px;
+}
+.place-text, .place-image{
+  width: 50%;
+}
+.place-text p {
+  margin: 24px 0;
+}
+.place-text ul li {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-left: 20px;
+}
+.place-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.place-image p {
+  position: absolute;
+  color: white;
+  font-weight: 700;
+}
+.controls {
+  position: absolute;
+  bottom: 5%;
+}
+.upper {
+  display: flex;
+  align-items: center;
+}
+.bar {
+  position: relative;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  height: 4px;
+}
+.progress {
+  position: absolute;
+}
+.time {
+  color: white;
+  position: absolute;
+  bottom: 21%;
+}
+.pause, .time, .vol, .max, .more {
+  margin-bottom: 16px;
+}
+.upper-left {
+  margin-right: 400px;
 }
