@@ -14,7 +14,8 @@
   .destination-section,
   .feature-container,
   .feature-3,
-  .place-section {
+  .place-section,
+  .newsletter {
     margin: 20px;
   }
   .items-container a {
@@ -64,6 +65,14 @@
   .place-text, .place-image {
     width: 100%;
   }
-
+  .upper-left {
+    margin-right: 400px;
+  }
+  .newsletter-container {
+    flex-direction: column;
+  }
+  .newsletter-form, .newsletter-image {
+    width: 100%;
+  }
 
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
