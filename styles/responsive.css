@@ -15,7 +15,8 @@
   .feature-container,
   .feature-3,
   .place-section,
-  .newsletter {
+  .newsletter,
+  .footer-container {
     margin: 20px;
   }
   .items-container a {
@@ -74,5 +75,4 @@
   .newsletter-form, .newsletter-image {
     width: 100%;
   }
-
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
